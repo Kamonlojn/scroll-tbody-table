@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <title>Bootstrap, Kamonlojn</title>
+
+	    <!-- Bootstrap -->
+	    <link href="assets/css/boostrap/bootstrap.min.css" rel="stylesheet">
+	    <style type="text/css">
+
+	    	.table__testing-fixed {
+				width: 100%;
+				position: relative;
+	    	}
+
+	    	.table__testing-fixed * {
+				display: block;
+			}
+
+			.table__testing-fixed>thead>tr:after,
+			.table__testing-fixed>tbody>tr:after {
+			  	content: ' ';
+				display: block;
+				visibility: hidden;
+				clear: both;
+			}
+
+			.table__testing-fixed>thead {
+				overflow-y: scroll;
+			}
+
+			.table__testing-fixed>tbody {
+			  	overflow-y: scroll;
+			  	max-height: 200px;
+			}
+
+			.table__testing-fixed>thead>tr>th,
+			.table__testing-fixed>tbody>tr>td {
+				float: left;
+				width: 25%;
+			}
+	    </style>
+	</head>
+	<body>
+		<h3> TABLE </h3>
+		<table class="table table-striped table__testing-fixed">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>First</th>
+					<th>Last</th>
+					<th>Value</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Big</td>
+					<td>Boy</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Jayce</td>
+					<td>Yoch</td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Pol</td>
+					<td></td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Due</td>
+					<td>Suriya</td>
+					<td>1000</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Big</td>
+					<td>Boy</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Jayce</td>
+					<td>Yoch</td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Pol</td>
+					<td></td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Due</td>
+					<td>Suriya</td>
+					<td>1000</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Pol</td>
+					<td></td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Due</td>
+					<td>Suriya</td>
+					<td>1000</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
